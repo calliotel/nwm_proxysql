@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:bullseye-slim
 MAINTAINER DevOps <devops@nwmgroup.hu>
 
 ENV VERSION 2.2.2
