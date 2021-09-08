@@ -1,5 +1,5 @@
 FROM debian:bullseye-slim
-MAINTAINER DevOps <devops@nwmgroup.hu>
+MAINTAINER Devops <devops@nwmgroup.hu>
 
 ENV VERSION 2.2.2
 
