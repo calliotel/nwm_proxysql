@@ -4,7 +4,7 @@ MAINTAINER DevOps <devops@nwmgroup.hu>
 ENV VERSION 2.2.2
 
 RUN apt-get update && \
-    apt-get install -y wget default-mysql-client inotify-tools procps htop ngrep autoconf automake libtool m4 bison flex && \
+    apt-get install -y wget default-mysql-client inotify-tools procps && \
     wget https://github.com/sysown/proxysql/releases/download/v${VERSION}/proxysql_${VERSION}-debian10_amd64.deb -O /opt/proxysql_${VERSION}-debian10_amd64.deb && \
     dpkg -i /opt/proxysql_${VERSION}-debian10_amd64.deb && \
     rm -f /opt/proxysql_${VERSION}-debian10_amd64.deb
