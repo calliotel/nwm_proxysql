@@ -1,7 +1,7 @@
 FROM debian:buster-slim
 MAINTAINER DevOps <devops@nwmgroup.hu>
 
-ENV VERSION 2.2.1
+ENV VERSION 2.2.2
 
 RUN apt-get update && \
     apt-get install -y wget default-mysql-client inotify-tools procps htop ngrep autoconf automake libtool m4 bison flex && \
