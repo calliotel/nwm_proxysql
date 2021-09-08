@@ -15,6 +15,5 @@ RUN rm -rf /var/lib/apt/lists/*
 VOLUME /var/lib/proxysql
 EXPOSE 6032 6033 6080
 
-RUN chmod +x entrypoint.sh
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
